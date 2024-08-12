@@ -1,0 +1,11 @@
+@mixin colorProp($textCap) {
+    background-color: $blackColor;
+    color: $whiteColor;
+    text-transform: $textCap;
+}
+
+@mixin fontProps($fontFamily, $borderStyle, $fontWeight){
+    font-family: $fontFamily;
+    font-weight: $fontWeight;
+    border: $borderStyle;
+}
